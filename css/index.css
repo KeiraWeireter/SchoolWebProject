@@ -83,6 +83,7 @@ a:active {
 .hold {
     display: flex;
     transform: translateY(30px);
+    padding-bottom: 70px;
 }
 .circle {
     text-align: center;
@@ -95,7 +96,14 @@ a:active {
     font-family: 'Montserrat', sans-serif;
     color: white;
     margin: 10px;
+    transition: width 2s;
+    transition: height 2s;
+    transition: all 1s ease-in;
 }
+.circle:hover {
+    width: 440px;
+    height: 440px;
+  }
 
 .circle.green {
     background-color: #90cf4c;
