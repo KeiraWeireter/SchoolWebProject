@@ -9,7 +9,17 @@
     overflow: hidden;
 }
 
+.banner{
+    background-color: white;
+    position: fixed;
+    z-index: 1;
+    height: 70px;
+    transform: 
+    width: 100vw;
+}
+
 h1 {
+    transform: translateY(-100px);
     margin-bottom: 0;
     font-family: 'Montserrat', sans-serif;
 }
