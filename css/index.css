@@ -14,16 +14,17 @@
     position: fixed;
     z-index: 1;
     height: 70px;
-    transform: 
+    transform: translateY(-10px);
     width: 100vw;
 }
 
 h1 {
-    transform: translateY(-100px);
+    transform: translateY(-90px);
     margin-bottom: 0;
     font-family: 'Montserrat', sans-serif;
 }
 .container{
+    margin-top: 50px;
     display: flex;
     width: 90vw;
 }
