@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
 body {
     background-color: darkslateblue;
     overflow: hidden;
@@ -9,6 +11,7 @@ body {
 }
 
 .container {
+    font-family: 'Montserrat', sans-serif;
     transform: translateY(-50px);
     padding-bottom: 30px;
     width: 50vw;
@@ -19,12 +22,21 @@ body {
     margin-right: 40px;
 }
 
+h3 {
+    font-size: 20px;
+}
 .joke {
     padding-bottom: 10px;
 }
 
 .btn {
     border-radius: 20px;
+    padding: 5px;
     border: 0;
-    background-color: gainsboro;
+    background-color: lightslategrey;
+    cursor: pointer;
+}
+
+.btn:active {
+    transform: scale(0.98);
 }
