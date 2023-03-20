@@ -1,16 +1,30 @@
 body {
     background-color: darkslateblue;
-}
-
-.container {
+    overflow: hidden;
     display: flex;
     height: 100vh;
     align-items: center;
     justify-content: center;
     margin: 0;
-    overflow: hidden;
 }
 
-.h3 {
-    
+.container {
+    transform: translateY(-50px);
+    padding-bottom: 30px;
+    width: 50vw;
+    text-align: center;
+    background-color: white;
+    border-radius: 30px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.joke {
+    padding-bottom: 10px;
+}
+
+.btn {
+    border-radius: 20px;
+    border: 0;
+    background-color: gainsboro;
 }
